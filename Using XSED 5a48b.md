@@ -231,8 +231,6 @@ salloc: Relinquishing job allocation 4978230
 [your_username@bridges2-login011 ~]$
 ```
 
-Or Ctrl+D
-
 ---
 
 Just adding to what Daniil said. You can use available software, including Gaussian, Anaconda3, and many others. To see what is available, run:
@@ -248,7 +246,6 @@ To load Gaussian, for example:
 ```python
 module load gaussian
 ```
-
 and anaconda3 will load anaconda that works with python3:
 
 ```python
