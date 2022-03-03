@@ -22,7 +22,7 @@
 
 [XSEDE User Portal | Multi-Factor Authentication with Duo](https://portal.xsede.org/mfa)
 
-![Screenshot from 2022-03-03 11-48-42.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_11-48-42.png)
+![Screenshot from 2022-03-03 11-48-42.png](Screenshots/Screenshot_from_2022-03-03_11-48-42.png)
 
 1. Then, you need to install Visual Studio Code according to your Operational System (OS): 
 
@@ -33,25 +33,25 @@
 
 [Developing on Remote Machines using SSH and Visual Studio Code](https://code.visualstudio.com/docs/remote/ssh)
 
-![Screenshot from 2022-03-03 12-11-45.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-11-45.png)
+![Screenshot from 2022-03-03 12-11-45.png](Screenshots/Screenshot_from_2022-03-03_12-11-45.png)
 
 ### Using Remote - SSH
 
 1. Then, you need to click on the symbol below:
 
-![Screenshot from 2022-03-03 12-16-05.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-16-05.png)
+![Screenshot from 2022-03-03 12-16-05.png](Screenshots/Screenshot_from_2022-03-03_12-16-05.png)
 
 1. A new window will open automatically on VS Code. You must select *Connect to Host:* 
 
-![Screenshot from 2022-03-03 12-24-26.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-24-26.png)
+![Screenshot from 2022-03-03 12-24-26.png](Screenshots/Screenshot_from_2022-03-03_12-24-26.png)
 
 1. Then, you must add *XSEDE* as *a new host:*
 
-![Screenshot from 2022-03-03 12-22-28.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-22-28.png)
+![Screenshot from 2022-03-03 12-22-28.png](Screenshots/Screenshot_from_2022-03-03_12-22-28.png)
 
 1. Then use a single sign-in point: [login.xsede.org](http://login.xsede.org/) to connect via SSH. The total process should look like this:
 
-![Screenshot from 2022-03-03 12-23-01.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-23-01.png)
+![Screenshot from 2022-03-03 12-23-01.png](Screenshots/Screenshot_from_2022-03-03_12-23-01.png)
 
 ```bash
 (base) user@comp ~ % ssh -l XUPusername login.xsede.org
@@ -71,17 +71,17 @@ Host login.xsede.org
 
 P.S. : Repeat the steps (**6**), (**7**) and (**8**). But now, you need to click on *login.xsede.org:*
 
-![Screenshot from 2022-03-03 12-44-52.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-44-52.png)
+![Screenshot from 2022-03-03 12-44-52.png](Screenshots/Screenshot_from_2022-03-03_12-44-52.png)
 
 1. A new window will open, asking your password (the password is the same you use to login into the website. If you want to read more, see the link below)
 
 [XSEDE User Portal | XSEDE Single Sign-On Hub](https://portal.xsede.org/web/xup/single-sign-on-hub)
 
-![Screenshot from 2022-03-03 12-47-32.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-47-32.png)
+![Screenshot from 2022-03-03 12-47-32.png](Screenshots/Screenshot_from_2022-03-03_12-47-32.png)
 
 1. Since your username and password are correct, you will be asked for DUO authentication:
 
-![Screenshot from 2022-03-03 12-49-41.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-49-41.png)
+![Screenshot from 2022-03-03 12-49-41.png](Screenshots/Screenshot_from_2022-03-03_12-49-41.png)
 
 P.S. : You may type option **1** or your **passcode (available in your DUO mobile app)**
 
@@ -98,7 +98,7 @@ gsissh bridges2
 1. What you'll see here is single sign-in points for the bridges cluster.
 
 ```bash
-[your_username@ssohub ~]$ gsissh bridges2
+[XUPusername@ssohub ~]$ gsissh bridges2
 ********************************* W A R N I N G ********************************
 You have connected to br011.ib.bridges2.psc.edu, a login node of Bridges 2.
 
@@ -126,7 +126,7 @@ Project: cie160013p PI: Franz Franchetti ***** default charging project *****
   Regular Memory            36,572 SU remain of 42,303 SU       active: Yes
   Ocean /ocean/projects/cie160013p 1.983T used of 34.18T
 
-[your_username@bridges2-login011 ~]$ projects
+[XUPusername@bridges2-login011 ~]$ projects
 Your default charging project charge id  is cie160013p.  If you would like to change the default charging project use the command change_primary_group ~charge_id~. Use the charge id listed below for the project you would like to make the default in place of ~charge_id~
 
 Project: CIE160013P
@@ -142,7 +142,7 @@ Project: CIE160013P
      Charge ID: cie160013p
      *** Default charging project ***
    Directories:
-       HOME /jet/home/your_username
+       HOME /jet/home/XUPusername
 
       Resource: Bridges 2 GPU
     Allocation: 12,247.00
@@ -153,7 +153,7 @@ Project: CIE160013P
      Charge ID: cie160013p
      *** Default charging project ***
    Directories:
-       HOME /jet/home/your_username
+       HOME /jet/home/XUPusername
 
       Resource: Bridges 2 Ocean Storage
     Allocation: 35,000.00
@@ -163,9 +163,9 @@ Project: CIE160013P
    User Active: Yes
      Charge ID: cie160013p
    Directories:
-       HOME /jet/home/your_username
+       HOME /jet/home/XUPusername
        STORAGE /ocean/projects/cie160013p
-       STORAGE /ocean/projects/cie160013p/your_username
+       STORAGE /ocean/projects/cie160013p/XUPusername
        STORAGE /ocean/projects/cie160013p/shared
 
       Resource: Bridges 2 Regular Memory
@@ -177,7 +177,7 @@ Project: CIE160013P
      Charge ID: cie160013p
      *** Default charging project ***
    Directories:
-       HOME /jet/home/your_username
+       HOME /jet/home/XUPusername
 
 ---------------------------------------------------
 ```
@@ -185,7 +185,7 @@ Project: CIE160013P
 1. Bridges have two modes of operation (see above): batch mode and interactive mode. To enter the interactive mode use the *interact* command:
 
 ```bash
-[your_username@bridges2-login011 ~]$ interact
+[XUPusername@bridges2-login011 ~]$ interact
 
 A command prompt will appear when your session begins
 "Ctrl+d" or "exit" will end your session
@@ -198,7 +198,7 @@ salloc: job 4978230 has been allocated resources
 salloc: Granted job allocation 4978230
 salloc: Waiting for resource configuration
 salloc: Nodes r001 are ready for job
-[your_username@r001 ~]$ df -h
+[XUPusername@r001 ~]$ df -h
 Файловая система                         Размер Использовано  Дост Использовано% Cмонтировано в
 /dev/nvme0n1p3                             296G          16G  266G            6% /
 tmpfs                                      126G            0  126G            0% /sys/fs/cgroup
@@ -209,11 +209,11 @@ tmpfs                                      126G         130M  126G            1%
 /dev/md0                                   6,1T          43G  6,0T            1% /local
 10.8.8.18@o2ib20:10.8.8.19@o2ib20:/ocean    14P         7,7P  5,8P           58% /ocean
 10.8.8.36@o2ib20:10.8.8.37@o2ib20:/jet     190T          35T  153T           19% /jet
-[your_username@r001 ~]$ free -h
+[XUPusername@r001 ~]$ free -h
               total        used        free      shared  buff/cache   available
 Mem:          251Gi        29Gi       211Gi        29Mi       9,9Gi       219Gi
 Swap:         699Gi       234Mi       699Gi
-[your_username@r001 ~]$ lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)'
+[XUPusername@r001 ~]$ lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)'
 CPU(s):              128
 On-line CPU(s) list: 0-127
 Thread(s) per core:  1
@@ -225,15 +225,15 @@ NUMA node1 CPU(s):   64-127
 To leave it, just type:
 
 ```bash
-[your_username@r001 ~]$ exit
+[XUPusername@r001 ~]$ exit
 exit
 salloc: Relinquishing job allocation 4978230
-[your_username@bridges2-login011 ~]$
+[XUPusername@bridges2-login011 ~]$
 ```
 
 ---
 
-Just adding to what Daniil said. You can use available software, including Gaussian, Anaconda3, and many others. To see what is available, run:
+You can use available software, including Gaussian, Anaconda3, and many others. To see what is available, run:
 
 ```python
 module spider
