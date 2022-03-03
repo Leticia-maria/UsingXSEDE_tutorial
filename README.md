@@ -22,7 +22,7 @@
 
 [XSEDE User Portal | Multi-Factor Authentication with Duo](https://portal.xsede.org/mfa)
 
-![Screenshot from 2022-03-03 11-48-42.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_11-48-42.png)
+![Screenshot from 2022-03-03 11-48-42.png](Screenshots/Screenshot_from_2022-03-03_11-48-42.png)
 
 1. Then, you need to install Visual Studio Code according to your Operational System (OS): 
 
@@ -33,25 +33,25 @@
 
 [Developing on Remote Machines using SSH and Visual Studio Code](https://code.visualstudio.com/docs/remote/ssh)
 
-![Screenshot from 2022-03-03 12-11-45.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-11-45.png)
+![Screenshot from 2022-03-03 12-11-45.png](Screenshots/Screenshot_from_2022-03-03_12-11-45.png)
 
 ### Using Remote - SSH
 
 1. Then, you need to click on the symbol below:
 
-![Screenshot from 2022-03-03 12-16-05.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-16-05.png)
+![Screenshot from 2022-03-03 12-16-05.png](Screenshots/Screenshot_from_2022-03-03_12-16-05.png)
 
 1. A new window will open automatically on VS Code. You must select *Connect to Host:* 
 
-![Screenshot from 2022-03-03 12-24-26.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-24-26.png)
+![Screenshot from 2022-03-03 12-24-26.png](Screenshots/Screenshot_from_2022-03-03_12-24-26.png)
 
 1. Then, you must add *XSEDE* as *a new host:*
 
-![Screenshot from 2022-03-03 12-22-28.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-22-28.png)
+![Screenshot from 2022-03-03 12-22-28.png](Screenshots/Screenshot_from_2022-03-03_12-22-28.png)
 
 1. Then use a single sign-in point: [login.xsede.org](http://login.xsede.org/) to connect via SSH. The total process should look like this:
 
-![Screenshot from 2022-03-03 12-23-01.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-23-01.png)
+![Screenshot from 2022-03-03 12-23-01.png](Screenshots/Screenshot_from_2022-03-03_12-23-01.png)
 
 ```bash
 (base) user@comp ~ % ssh -l XUPusername login.xsede.org
@@ -71,17 +71,17 @@ Host login.xsede.org
 
 P.S. : Repeat the steps (**6**), (**7**) and (**8**). But now, you need to click on *login.xsede.org:*
 
-![Screenshot from 2022-03-03 12-44-52.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-44-52.png)
+![Screenshot from 2022-03-03 12-44-52.png](Screenshots/Screenshot_from_2022-03-03_12-44-52.png)
 
 1. A new window will open, asking your password (the password is the same you use to login into the website. If you want to read more, see the link below)
 
 [XSEDE User Portal | XSEDE Single Sign-On Hub](https://portal.xsede.org/web/xup/single-sign-on-hub)
 
-![Screenshot from 2022-03-03 12-47-32.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-47-32.png)
+![Screenshot from 2022-03-03 12-47-32.png](Screenshots/Screenshot_from_2022-03-03_12-47-32.png)
 
 1. Since your username and password are correct, you will be asked for DUO authentication:
 
-![Screenshot from 2022-03-03 12-49-41.png](Using%20XSED%205a48b/Screenshot_from_2022-03-03_12-49-41.png)
+![Screenshot from 2022-03-03 12-49-41.png](Screenshots/Screenshot_from_2022-03-03_12-49-41.png)
 
 P.S. : You may type option **1** or your **passcode (available in your DUO mobile app)**
 
